@@ -1,5 +1,5 @@
 # Compound Interest Calculator
-# Below I will be using logical operators in Python to create my calculator
+# Below I will be using logical operators (while loop) in Python to create my calculator
 
 principle = 0
 rate = 0
@@ -20,9 +20,6 @@ while time <= 0:
     if time <= 0:
         print("Time can't be 0 or less than zero")
 
-print(principle)
-print(rate)
-print(time)
 
 total = principle * pow((1 + rate / 100), time)
 
